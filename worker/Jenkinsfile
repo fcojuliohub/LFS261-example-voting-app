@@ -42,7 +42,7 @@ pipeline {
       }
       stage("package"){
         when{
-          branch 'master'
+          branch 'feature/dockerbuild'
           changeset "**/worker/**"
         }
         agent{
