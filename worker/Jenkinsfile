@@ -38,7 +38,7 @@ pipeline {
 	}
 	post{
 		always{
-			echo 'the job is completeee'
+			echo 'the job is completeeeeeeee'
 		}
 	}
 }
